@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NML_ModTitle>No Metabolism Limit</NML_ModTitle>
+
+  <NML_SectionCap>Metabolism cap</NML_SectionCap>
+  <NML_RemoveCap>Remove the -5 / +5 metabolism cap</NML_RemoveCap>
+  <NML_RemoveCapDesc>Lets xenogerms, xenotypes, gene extraction and implantation go past the vanilla metabolism limit.\n\nTurn off to make the mod do nothing.</NML_RemoveCapDesc>
+  <NML_BypassComplexity>Also remove the complexity limit</NML_BypassComplexity>
+  <NML_BypassComplexityDesc>The gene assembler will accept any complexity, ignoring how many gene processors it has.\n\nThis mod is about metabolism, so this is off by default. Earlier versions removed the complexity limit as an unintended side effect - turn this on to get that back.</NML_BypassComplexityDesc>
+  <NML_AllowInWorldGen>Apply to randomly generated genepacks</NML_AllowInWorldGen>
+  <NML_AllowInWorldGenDesc>Off by default: genepacks found in the world stay inside the vanilla -5 / +5 range, so the mod only affects what you build yourself.</NML_AllowInWorldGenDesc>
+
+  <NML_SectionHunger>Hunger past the cap</NML_SectionHunger>
+  <NML_ScaleHunger>Hunger keeps scaling past the cap</NML_ScaleHunger>
+  <NML_ScaleHungerDesc>Vanilla stops the hunger multiplier at the edge of the cap, so -5, -6 and -20 metabolism all eat x225%.\n\nTurn on to keep the vanilla line going past the cap instead of flattening it.</NML_ScaleHungerDesc>
+  <NML_PerPointBelow>Hunger added per point below -5</NML_PerPointBelow>
+  <NML_PerPointAbove>Hunger removed per point above +5</NML_PerPointAbove>
+  <NML_ExtendPositive>Extend positive metabolism too</NML_ExtendPositive>
+  <NML_ExtendPositiveDesc>Vanilla stops at x50% hunger above +5 metabolism. With this on, hunger keeps dropping and reaches 0% - a pawn that never gets hungry.\n\nHunger is never allowed below 0%.</NML_ExtendPositiveDesc>
+  <NML_Preview>Resulting hunger rate</NML_Preview>
+  <NML_ZeroHungerAt>Hunger reaches 0% at +{0} metabolism.</NML_ZeroHungerAt>
+  <NML_Reset>Reset to defaults</NML_Reset>
+
+</LanguageData>

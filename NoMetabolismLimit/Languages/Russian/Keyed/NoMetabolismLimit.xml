@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NML_ModTitle>Без лимита метаболизма</NML_ModTitle>
+
+  <NML_SectionCap>Лимит метаболизма</NML_SectionCap>
+  <NML_RemoveCap>Снять лимит метаболизма -5 / +5</NML_RemoveCap>
+  <NML_RemoveCapDesc>Позволяет ксеногермам, ксенотипам, извлечению генов и вживлению выходить за ванильный лимит метаболизма.\n\nВыключите, чтобы мод ничего не делал.</NML_RemoveCapDesc>
+  <NML_BypassComplexity>Снять и лимит сложности</NML_BypassComplexity>
+  <NML_BypassComplexityDesc>Сборщик генов примет любую сложность, независимо от количества генопроцессоров.\n\nМод про метаболизм, поэтому по умолчанию выключено. Прошлые версии снимали лимит сложности как непреднамеренный побочный эффект — включите, чтобы вернуть это поведение.</NML_BypassComplexityDesc>
+  <NML_AllowInWorldGen>Применять к случайным генопакам</NML_AllowInWorldGen>
+  <NML_AllowInWorldGenDesc>По умолчанию выключено: генопаки, которые встречаются в мире, остаются в ванильном диапазоне -5 / +5, и мод влияет только на то, что вы собираете сами.</NML_AllowInWorldGenDesc>
+
+  <NML_SectionHunger>Голод за пределами лимита</NML_SectionHunger>
+  <NML_ScaleHunger>Голод продолжает расти за лимитом</NML_ScaleHunger>
+  <NML_ScaleHungerDesc>В ванили множитель голода упирается в край лимита, поэтому -5, -6 и -20 метаболизма одинаково едят x225%.\n\nВключите, чтобы ванильная линия продолжалась за лимитом, а не обрывалась.</NML_ScaleHungerDesc>
+  <NML_PerPointBelow>Голода добавляется за каждую единицу ниже -5</NML_PerPointBelow>
+  <NML_PerPointAbove>Голода убавляется за каждую единицу выше +5</NML_PerPointAbove>
+  <NML_ExtendPositive>Продлевать и положительный метаболизм</NML_ExtendPositive>
+  <NML_ExtendPositiveDesc>В ванили выше +5 метаболизма голод не опускается ниже x50%. С этой опцией голод продолжает падать и доходит до 0% — пешка вообще перестаёт хотеть есть.\n\nНиже 0% голод не уходит.</NML_ExtendPositiveDesc>
+  <NML_Preview>Итоговая скорость голода</NML_Preview>
+  <NML_ZeroHungerAt>Голод достигает 0% при метаболизме +{0}.</NML_ZeroHungerAt>
+  <NML_Reset>Сбросить настройки</NML_Reset>
+
+</LanguageData>

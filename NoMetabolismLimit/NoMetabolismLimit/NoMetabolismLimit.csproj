@@ -50,7 +50,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeneTuningOverride.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="NoMetabolismLimitMod.cs" />
+    <Compile Include="NoMetabolismLimitSettings.cs" />
+    <Compile Include="Patches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

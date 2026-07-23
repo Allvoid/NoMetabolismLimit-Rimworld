@@ -1,0 +1,22 @@
+<ModMetaData>
+  <name>No Metabolism Limit</name>
+  <author>Allvoid</author>
+  <description>Removes the -5/+5 metabolism cap from genes (Biotech DLC).
+
+Mod settings:
+- Optionally keep hunger scaling past the cap, instead of vanilla flattening it at x225%. Each further point below -5 adds hunger, and positive metabolism can be extended all the way down to 0% hunger.
+- Randomly generated genepacks stay inside the vanilla range by default, so only what you build yourself is affected.
+- The complexity limit is left alone by default; it can be removed separately.
+
+Gene and genepack cards keep showing their real metabolism value and hunger rate.</description>
+  <packageId>Allvoid.nometabolismlimit</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+</ModMetaData>
