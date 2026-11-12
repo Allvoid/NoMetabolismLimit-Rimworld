@@ -1,14 +1,27 @@
 <ModMetaData>
-  <name>No Metabolism Limit</name>
+  <name>Ar: No Metabolism Limit</name>
   <author>Allvoid</author>
-  <description>Removes the -5/+5 metabolism cap from genes (Biotech DLC).
-
-Mod settings:
-- Optionally keep hunger scaling past the cap, instead of vanilla flattening it at x225%. Each further point below -5 adds hunger, and positive metabolism can be extended all the way down to 0% hunger.
-- Randomly generated genepacks stay inside the vanilla range by default, so only what you build yourself is affected.
+  <description>Removes the -5 / +5 metabolism cap of genes (Biotech): xenogerms, xenotypes, gene extraction and implantation go past the vanilla limit.
+Settings
+- Hunger past the cap (optional): vanilla stops at x225% hunger, so -5, -6 and -20 metabolism all eat the same. Turn it on and each point below -5 adds hunger; positive metabolism can go all the way to 0% hunger.
+- Genepacks found in the world stay inside the vanilla range by default, so only what you build yourself is affected.
 - The complexity limit is left alone by default; it can be removed separately.
+Gene and genepack cards show the real metabolism and hunger rate. A preview in the settings shows the resulting hunger.
+Source: github.com/Allvoid/NoMetabolismLimit-Rimworld.
+Notes
+- Needs Biotech and Harmony. RimWorld 1.6 and 1.7.
+- Languages: English and Russian.
 
-Gene and genepack cards keep showing their real metabolism value and hunger rate.</description>
+Убирает предел метаболизма −5 / +5 у генов (Biotech): ксеногермы, ксенотипы, извлечение и вживление генов выходят за предел игры.
+Настройки
+- Голод за пределом (по желанию): в игре голод останавливается на x225%, и метаболизм −5, −6 и −20 ест одинаково. Включите — и каждое очко ниже −5 добавляет голод; положительный метаболизм может дойти до 0% голода.
+- Генпаки, найденные в мире, по умолчанию остаются в пределах игры: мод меняет только то, что вы собираете сами.
+- Предел сложности по умолчанию не трогается; его можно снять отдельно.
+Карточки генов и генпаков показывают настоящий метаболизм и голод. Предпросмотр в настройках показывает, какой выйдет голод.
+Исходный код: github.com/Allvoid/NoMetabolismLimit-Rimworld.
+Важно
+- Нужны Biotech и Harmony. RimWorld 1.6 и 1.7.
+- Языки: русский и английский.</description>
   <packageId>Allvoid.nometabolismlimit</packageId>
   <supportedVersions>
     <li>1.6</li>
